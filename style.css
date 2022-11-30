@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ---------- header -------------- */
+header{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+}
+
+header section{
+    width: 630px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header section article{
+    padding-top: 20px;
+}
+
+header section article nav {
+    margin-top: 40px;
+    justify-content: right;
+    display: flex;
+}
+
+header section article nav a{
+    margin-left: 10px;
+}
+
+header section article p{
+    font-size: 20px;
+    justify-content: right;
+    display: flex;
+}
+/* ---------- Fin header -------------- */
+
+
+/* ---------- main -------------- */
+
+main{
+    background-color: #000000;
+}
+
+main #screen{
+    height: 200px;
+    background-image: url(./img/screen1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .sections{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0;
+    margin: auto;
+    width: 630px;
+}
+
+main label{
+    position: relative;
+    left: 200px;
+    bottom: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #000000;
+}
+
+main .artTitle{
+    font-size: 10px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main .flexDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+
+main .flexDiv button{
+    cursor: pointer;
+    padding: 2px 20px;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+}
+
+
+
+
+.bgColorWhite{
+    background-color: #ffffff;
+}
+
+/* Prix barré de la promotion */
+.lineThrough{
+    text-decoration: line-through;
+}
+
+/* Prix coloré de la promotion */
+.promoColor{
+    color: #d5a224;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/* padding sous les gants de box */
+#paddBt{
+    padding-bottom: 90px;
+}
+
+/* ---------- Fin main -------------- */
+
+/* ---------- footer -------------- */
+
+footer{
+    background-color: #373737;
+}
+
+footer #headFooter{
+    text-align: center;
+    width: 315px;
+    height: 33px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    position: relative;
+    top: -17px;
+}
+
+footer #headFooter a{
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+footer .flexSection{
+    display: flex;
+    justify-content: center;
+}
+
+footer .footerArticle{
+    text-align: center;
+    margin: 10px 22px;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+footer .separation{
+    height: 5px;
+    width: 70%;
+    background-color: #828282;
+    margin: 25px auto 25px auto;
+}
+
+footer .flexBox{
+    display: flex;
+    justify-content: center;
+}
+
+footer #icon{
+    text-align: center;
+}
+
+footer #icon img{
+    margin: 0 30px;
+}
+
+footer #footerCopyR{
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+/* ---------- Fin footer -------------- */
+
+
+
+
+/* ---------- Responsive adaptatif 576 px -------------- */
+@media screen and (max-width: 576px) {
+
+    /* ---------- header -------------- */
+    header{
+        display: block;
+        padding: 2px 0;
+    }
+
+    header #logo {
+        text-align: center;
+    }
+
+    header section{
+        display: block;
+        width: auto;
+    }
+
+    header section article p{
+        display: block;
+        margin-left: 58px;
+    }
+
+    header section article nav {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    /* ---------- Fin header -------------- */
+
+
+    /* ---------- main -------------- */
+
+    main #screen{
+        margin-top: -10px;
+        margin-bottom: -8px;
+        width: 540px;
+        margin: 0px auto -14px auto;
+    }
+
+    main .sections{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px;
+        margin: -1px 20px;
+        width: auto;
+    }
+
+    main .sections article{
+        margin: 15px 0;
+    }
+
+    /* ---------- Fin main -------------- */
+
+
+    footer .flexBox{
+        display: block;
+    }
+
+}
