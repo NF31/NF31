@@ -1,7 +1,7 @@
 ### Bonjour
 
 Je suis étudiant en double licence **Numérique et Management** (MIASHS + Gestion, Université
-Toulouse Capitole) et développeur freelance sous le nom [NFdev](https://www.nfdev.fr/). Je
+Toulouse Capitole) et développeur. Je
 développe des applications web full-stack, en m'intéressant surtout à ce qui relie le code aux
 processus de l'entreprise : paiement, facturation, service après-vente, données clients,
 reporting.
